@@ -37,7 +37,7 @@ wl_protocol_dir = wayland_protos.get_pkgconfig_variable('pkgdatadir')
 protocols = [
   [wl_protocol_dir, 'stable/xdg-shell/xdg-shell.xml'],
   [wl_protocol_dir, 'unstable/xdg-output/xdg-output-unstable-v1.xml'],
-  'wlr-layer-shell-unstable-v1.xml'
+  'protocols/wlr-layer-shell-unstable-v1.xml'
 ]
 
 protos_src = []

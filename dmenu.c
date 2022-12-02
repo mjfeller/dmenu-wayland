@@ -42,14 +42,14 @@ struct {
 
 const char *progname;
 
-static uint32_t color_bg = 0x222222ff;
-static uint32_t color_fg = 0xbbbbbbff;
-static uint32_t color_input_bg = 0x222222ff;
-static uint32_t color_input_fg = 0xbbbbbbff;
-static uint32_t color_prompt_bg = 0x005577ff;
-static uint32_t color_prompt_fg = 0xeeeeeeff;
-static uint32_t color_selected_bg = 0x005577ff;
-static uint32_t color_selected_fg = 0xeeeeeeff;
+static uint32_t color_bg = 0x000000ff;
+static uint32_t color_fg = 0xffffffff;
+static uint32_t color_input_bg = 0x000000ff;
+static uint32_t color_input_fg = 0xffffffff;
+static uint32_t color_prompt_bg = 0x000000ff;
+static uint32_t color_prompt_fg = 0xffffffff;
+static uint32_t color_selected_bg = 0x100f10ff;
+static uint32_t color_selected_fg = 0x44bc44ff;
 
 static int32_t panel_height = 20;
 
@@ -82,7 +82,7 @@ static Item *items = NULL;
 static Item *matches, *sel;
 static Item *prev, *curr, *next;
 static Item *leftmost, *rightmost;
-static char *font = "Mono";
+static char *font = "Comic Mono";
 
 static int (*fstrncmp)(const char *, const char *, size_t) = strncmp;
 
